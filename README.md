@@ -1,5 +1,5 @@
 # soundsharp-musicplayer-tkinter
-<h1>a lightweight music player<h1>
+<h3>a lightweight music player</h3>
 
 <img src="https://i.imgur.com/YXOVLJH.png">
 
