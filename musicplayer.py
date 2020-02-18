@@ -9,7 +9,7 @@ par = 1
 playlist = []
 
 root = Tk()
-root.title("pyplay")
+root.title("soundsharp")
 root.state("iconic")
 
 #commands assigned to buttons
