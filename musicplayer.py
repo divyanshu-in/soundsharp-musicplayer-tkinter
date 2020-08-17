@@ -17,10 +17,10 @@ par = 1
 playlist = []
 
 player = Tk()
-player.title("Music Player - By Logan")
+player.title("Music Player")
 player.state("iconic")
 player.iconbitmap("./logo.ico")
-ctypes.windll.user32.MessageBoxW(0, "To play some music, first click the plus then navigate to a folder on your computer which has music in it then click open.\n\nThen just click one of the songs from the lsit below and click play.\nI might in future add more features eg volume and pause", "MusicPlayer by Logan", 0)
+ctypes.windll.user32.MessageBoxW(0, "To play some music, first click the plus then navigate to a folder on your computer which has music in it then click open.\n\nThen just click one of the songs from the lsit below and click play.", "MusicPlayer", 0)
 
 
 #commands assigned to buttons
