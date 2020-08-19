@@ -1,10 +1,10 @@
-import pygame #if you don't have PYgame installed or you are grtting an erorr, type "pip install pygame"
-import time #This  is optional
-from tkinter import Listbox # type "pip install tkinter"
+import pygame 
+import time # An included library with Python install.
+from tkinter import Listbox 
 from tkinter import PhotoImage
-import os # This is already installed
+import os 
 from tkinter.filedialog import *
-from PIL import Image # type "pip install pillow"
+from PIL import Image 
 from tkinter import ttk
 import sys
 import ctypes  # An included library with Python install. 
@@ -86,13 +86,13 @@ def prev():
 
 
 #symbols to be displayed on button
-playImage = PhotoImage(file = "./play.png")
-nextImage = PhotoImage(file = "./next.png")
-prevImage = PhotoImage(file = "./priv.png")
-listImage = PhotoImage(file = "./list.png")
-exitImage = PhotoImage(file = "./exit.png")
-pauseImage = PhotoImage(file = "./pause.png")
-stopImage = PhotoImage(file = "./stop.png")
+playImage = PhotoImage(file = ".icons/play.png")
+nextImage = PhotoImage(file = ".icons/next.png")
+prevImage = PhotoImage(file = ".icons/priv.png")
+listImage = PhotoImage(file = ".icons/list.png")
+exitImage = PhotoImage(file = ".icons/exit.png")
+pauseImage = PhotoImage(file = ".icons/pause.png")
+stopImage = PhotoImage(file = ".icons/stop.png")
 
 pl = playImage.subsample(3, 3)
 ps = pauseImage.subsample(3, 3)
