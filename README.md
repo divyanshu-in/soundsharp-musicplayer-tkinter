@@ -1,9 +1,8 @@
 # soundsharp-musicplayer-tkinter
 <h3>a lightweight music player</h3>
+run "pip install -r requirements.txt" from your shell to install required libraries
 
 <img src="https://i.imgur.com/YXOVLJH.png">
-
-<h1>run "pip install -r requirements.txt" from your shell to install required libraries</h1>
 
 <h4>press + icon to add files to the playlist, press + and navigate to folder containing .mp3 files</h4>
 
