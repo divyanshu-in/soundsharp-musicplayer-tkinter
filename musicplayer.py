@@ -1,10 +1,10 @@
-import pygame
-import time
-from tkinter import Listbox
+import pygame #if you don't have PYgame installed or you are grtting an erorr, type "pip install pygame"
+import time #This  is optional
+from tkinter import Listbox # type "pip install tkinter"
 from tkinter import PhotoImage
-import os
+import os # This is already installed
 from tkinter.filedialog import *
-from PIL import Image
+from PIL import Image # type "pip install pillow"
 from tkinter import ttk
 import sys
 import ctypes  # An included library with Python install. 
@@ -17,9 +17,9 @@ par = 1
 playlist = []
 
 player = Tk()
-player.title("Music Player")
+player.title("Music Player") #name of the program when you run it
 player.state("iconic")
-player.iconbitmap("./logo.ico")
+player.iconbitmap("./logo.ico") # if you get an error on this line, just delete this whole line
 ctypes.windll.user32.MessageBoxW(0, "To play some music, first click the plus then navigate to a folder on your computer which has music in it then click open.\n\nThen just click one of the songs from the lsit below and click play.", "MusicPlayer", 0)
 
 
