@@ -2,7 +2,7 @@
 <h3>a lightweight music player</h3>
 run `pip install -r requirements.txt` from your terminal to install required libraries</br>
 or just run "requirements.sh" from terminal to do so:-</br>
-```
+```shell
 chmod +x requirements.sh
 ./requirements.sh
 ```
