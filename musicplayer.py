@@ -5,11 +5,11 @@ from tkinter import PhotoImage
 import os 
 from tkinter.filedialog import *
 from PIL import Image 
-from tkinter import ttk
+#from tkinter import tk
 import sys
-import ctypes  # An included library with Python install. 
 from pygame import mixer
 pygame.mixer.init()
+from tkinter import messagebox
 
 
 
@@ -19,9 +19,8 @@ playlist = []
 player = Tk()
 player.title("Music Player") #name of the program when you run it
 player.state("iconic")
-player.iconbitmap("./logo.ico") # if you get an error on this line, just delete this whole line
-ctypes.windll.user32.MessageBoxW(0, "To play some music, first click the plus then navigate to a folder on your computer which has music in it then click open.\n\nThen just click one of the songs from the lsit below and click play.", "MusicPlayer", 0)
-
+#player.iconbitmap("./logo.ico") # if you get an error on this line, just delete this whole line
+messagebox.showinfo("MusicPlayer", "To play some music, first click the plus then navigate to a folder on your computer which has music in it then click open.\n\nThen just click one of the songs from the lsit below and click play")
 
 #commands assigned to buttons
 def select_dir():
@@ -86,13 +85,13 @@ def prev():
 
 
 #symbols to be displayed on button
-playImage = PhotoImage(file = ".icons/play.png")
-nextImage = PhotoImage(file = ".icons/next.png")
-prevImage = PhotoImage(file = ".icons/priv.png")
-listImage = PhotoImage(file = ".icons/list.png")
-exitImage = PhotoImage(file = ".icons/exit.png")
-pauseImage = PhotoImage(file = ".icons/pause.png")
-stopImage = PhotoImage(file = ".icons/stop.png")
+playImage = PhotoImage(file = "./icons/play.png")
+nextImage = PhotoImage(file = "./icons/next.png")
+prevImage = PhotoImage(file = "./icons/priv.png")
+listImage = PhotoImage(file = "./icons/list.png")
+exitImage = PhotoImage(file = "./icons/exit.png")
+pauseImage = PhotoImage(file = "./icons/pause.png")
+stopImage = PhotoImage(file = "./icons/stop.png")
 
 pl = playImage.subsample(3, 3)
 ps = pauseImage.subsample(3, 3)
