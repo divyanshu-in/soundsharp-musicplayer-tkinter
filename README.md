@@ -2,6 +2,7 @@
 <h3>a lightweight music player</h3>
 <H4>Install the requirements</H4>
 run 
+
 ```shell
 pip install -r requirements.txt
 ``` 
