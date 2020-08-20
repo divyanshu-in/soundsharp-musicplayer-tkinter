@@ -6,10 +6,7 @@ or just run "requirements.sh" from terminal to do so:-</br>
 chmod +x requirements.sh
 ./requirements.sh
 
-```
-
-python
-Code goes 
+``` 
 
 
 <img src="https://i.imgur.com/YXOVLJH.png">
