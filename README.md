@@ -1,12 +1,15 @@
 # soundsharp-musicplayer-tkinter
 <h3>a lightweight music player</h3>
-run `pip install -r requirements.txt` from your terminal to install required libraries</br>
-or just run "requirements.sh" from terminal to do so:-</br>
+<H4>Install the requirements</H4>
+run 
 
+```shell
+pip install -r requirements.txt
+``` 
+Or
 
-```
-chmod +x requirements.sh
-./requirements.sh
+```shell
+chmod +x requirements.sh && ./requirements.sh
 ```
 
 <img src="https://i.imgur.com/YXOVLJH.png">
