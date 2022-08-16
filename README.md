@@ -4,13 +4,12 @@
 run 
 
 ```shell
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-``` 
-Or
 
-```shell
-chmod +x requirements.sh && ./requirements.sh
-```
+python musicplayer.py
+``` 
 
 <img src="https://i.imgur.com/YXOVLJH.png">
 
