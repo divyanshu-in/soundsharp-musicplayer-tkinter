@@ -5,7 +5,7 @@ from tkinter import PhotoImage
 import os 
 from tkinter.filedialog import *
 from PIL import Image 
-#from tkinter import tk
+from tkinter import Tk, Button
 import sys
 from pygame import mixer
 pygame.mixer.init()
@@ -19,7 +19,7 @@ playlist = []
 player = Tk()
 player.title("Music Player") #name of the program when you run it
 player.state("iconic")
-#player.iconbitmap("./logo.ico") # if you get an error on this line, just delete this whole line
+# player.iconbitmap("./logo.ico") # if you get an error on this line, just delete this whole line
 messagebox.showinfo("MusicPlayer", "To play some music, first click the plus then navigate to a folder on your computer which has music in it then click open.\n\nThen just click one of the songs from the lsit below and click play")
 
 #commands assigned to buttons
@@ -45,7 +45,7 @@ def play_music():
 
     if paused:
         pygame.mixer.music.unpause()
-        paused = FALSE
+        paused = False
     else:
         stop_music()
         time.sleep(1)
@@ -57,12 +57,12 @@ def stop_music():
     pygame.mixer.music.stop()
 
 
-paused = FALSE
+paused = False
 
 
 def pause_music():
     global paused
-    paused = TRUE
+    paused = True
     pygame.mixer.music.pause()
 
 
